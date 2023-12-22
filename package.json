@@ -1,0 +1,21 @@
+{
+  "name": "clv20test",
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@clover-network/node-types": "^1.0.5",
+    "@clover-network/web-wallet-sdk": "^0.1.2",
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/api-contract": "^10.11.2",
+    "@polkadot/keyring": "^12.6.2",
+    "@polkadot/util": "^12.6.2",
+    "@polkadot/util-crypto": "^12.6.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bignumber.js": "^9.1.2",
+    "bluebird": "^3.7.2",
+    "bn.js": "^5.2.1",
+    "lodash": "^4.17.21",
+    "prompts": "^2.4.2"
+  }
+}
