@@ -9,7 +9,6 @@ const bluebird = require('bluebird');
 const { checkAddress } = require('@polkadot/util-crypto');
 const BigNumber = require('bignumber.js');
 const config = require('./.env.json');
-console.log('config:', config);
 
 const keyring = new Keyring({
   ss58Format: 42,
@@ -41,7 +40,7 @@ async function main() {
   await checkAccountBalance(api, signer.address)
 
   // mint token
-  await deploy(api, signer);
+//   await deploy(api, signer);
   await tickerInfo(api, "RGBX")
 }
 
